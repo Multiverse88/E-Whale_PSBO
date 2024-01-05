@@ -1,0 +1,468 @@
+<!-- DataTables -->
+<link href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+
+<!-- Responsive datatable examples -->
+<link href="assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet"
+    type="text/css" />
+
+
+
+<div class="page-content">
+    <div class="container-fluid">
+
+        <!-- start page title -->
+        <div class="row">
+            <div class="col-12">
+                <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                    <h4 class="mb-sm-0">Customers</h4>
+
+                    <div class="page-title-right">
+                        <ol class="breadcrumb m-0">
+                            <li class="breadcrumb-item active">Sampah Elektronik Yang Dapat Dijemput</li>
+                        </ol>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- end page title -->
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body"> 
+                        <div>
+                            <a href="javascript:void(0);" class="btn btn-success mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="mdi mdi-plus me-2"></i>
+                                Tambah Data</a>
+                        </div>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Data Sampah Elektronik</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <form>
+                                    <div class="mb-3">
+                                      <label for="recipient-name" class="col-form-label">Jenis Sampah:</label>
+                                      <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="message-text" class="col-form-label">Kategori Sampah:</label>
+                                      <select  class="form-select">
+                                        <option>Pilih Kategori</option>
+                                        <option>Layar, Monitor</option>
+                                        <option>Alat pertukaran suhu</option>
+                                        <option>Mainan</option>
+                                        <option>Peralatan Besar</option>
+                                        <option>Lampu</option>
+                                        <option>Telekomunikasi Kecil</option>
+                                        <option>Peralatan Kecil</option>
+                                      </select>
+                                    </div>
+                                  </form>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-primary position-absolute top-85 start-50 translate-middle" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-dismiss="modal-dialog">Tambah Data</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Tambah Data Sampah Elektronik</h1>
+                                  <button type="button" class="btn-close"  aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  Anda telah 'Menambah' Data ini.
+                                </div>
+                                <a class="btn btn-primary" data-dismiss="modal">Kembali ke menu</a>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Ubah Data Sampah Elektronik</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <form>
+                                    <div class="mb-3">
+                                      <label for="recipient-name" class="col-form-label">Jenis Sampah:</label>
+                                      <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="message-text" class="col-form-label">Kategori Sampah:</label>
+                                      <select  class="form-select">
+                                        <option>Pilih Kategori</option>
+                                        <option>Layar, Monitor</option>
+                                        <option>Alat pertukaran suhu</option>
+                                        <option>Mainan</option>
+                                        <option>Peralatan Besar</option>
+                                        <option>Lampu</option>
+                                        <option>Telekomunikasi Kecil</option>
+                                        <option>Peralatan Kecil</option>
+                                      </select>
+                                    </div>
+                                  </form>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-primary position-absolute top-85 start-50 translate-middle" data-bs-target="#exampleModalToggle23" data-bs-toggle="modal" data-dismiss="modal-dialog">Tambah Data</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal fade" id="exampleModalToggle23" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Ubah Data Sampah Elektronik</h1>
+                                  <button type="button" class="btn-close"  aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  Anda telah 'Mengubah' Data ini.
+                                </div>
+                                <a class="btn btn-primary" data-dismiss="modal">Kembali ke menu</a>
+                              </div>
+                            </div>
+                          </div>
+                            
+                        <div class="table-responsive mt-3">
+                            <table class="table table-centered datatable dt-responsive nowrap "
+                                style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th style="width: 20px;">
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="customercheck">
+                                                <label class="form-check-label mb-0" for="customercheck">&nbsp;</label>
+                                            </div>
+                                        </th>
+                                        <th>Jenis Sampah Elektronik</th>
+                                        <th>Kategori Sampah Elektronik</th>
+
+                                        <th style="width: 120px;">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="customercheck1">
+                                                <label class="form-check-label mb-0" for="customercheck1">&nbsp;</label>
+                                            </div>
+                                        </td>
+
+                                        <td>Televisi</td>
+                                        <td>Layar,Monitor</td>
+
+                                        <div class="modal fade" id="hapusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h5 class="modal-title" id="exampleModalLabel">Hapus Data jenis dan kategori</h5>
+                                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                  </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                  Apakah anda yakin ingin 'Menghapus' Data ini?
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-success" data-bs-target="#hapusModalToggle" data-bs-toggle="modal" data-dismiss="modal"><i class="bi bi-check-square"></i>  Ya</button>
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="bi bi-x-circle"></i> Tidak</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="modal fade" id="hapusModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                                            <div class="modal-dialog modal-dialog-centered">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h1 class="modal-title fs-5" id="hapusModalToggleLabel">Hapus Data Jenis dan kategori </h1>
+                                                  <button type="button" class="btn-close"  aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                  Anda telah 'Menghapus' Data ini.
+                                                </div> 
+                                                <a class="btn btn-primary" data-dismiss="modal">Kembali ke menu</a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                            
+                                        <td id="tooltip-container1">
+                                            <button type="button" class="btn btn-success" data-bs-target="#exampleModal2" data-bs-toggle="modal" data-dismiss="modal"><i
+                                                class="mdi mdi-pencil font-size-18"></i></button>
+                                            <button type="button" class="btn btn-success" data-bs-target="#hapusModal" data-bs-toggle="modal" data-dismiss="modal">
+                                                    <i class="mdi mdi-trash-can font-size-18"></i>
+                                                </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="customercheck2">
+                                                <label class="form-check-label mb-0" for="customercheck2">&nbsp;</label>
+                                            </div>
+                                        </td>
+
+                                        <td>Air Conditioner(ac)</td>
+                                        <td>Alat pertukaran suhu</td>
+
+                                      
+                                        <td id="tooltip-container2">
+                                            <a href="javascript:void(0);" class="me-3 text-primary"
+                                                data-bs-container="#tooltip-container2" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Edit"><i
+                                                    class="mdi mdi-pencil font-size-18"></i></a>
+                                            <a href="javascript:void(0);" class="text-danger"
+                                                data-bs-container="#tooltip-container2" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Delete"><i
+                                                    class="mdi mdi-trash-can font-size-18"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="customercheck3">
+                                                <label class="form-check-label mb-0" for="customercheck3">&nbsp;</label>
+                                            </div>
+                                        </td>
+
+                                        <td>Konsol Game</td>
+                                        <td>Mainan</td>
+                        
+
+                                    
+                                        
+                                        <td>
+                                            <a href="" class="me-3 text-primary"
+                                                data-bs-container="#tooltip-container3" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Edit"><i
+                                                    class="mdi mdi-pencil font-size-18"></i></a>
+                                            <a href="" class="text-danger"
+                                                data-bs-container="#tooltip-container3" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Delete"><i
+                                                    class="mdi mdi-trash-can font-size-18"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="customercheck4">
+                                                <label class="form-check-label mb-0" for="customercheck4">&nbsp;</label>
+                                            </div>
+                                        </td>
+
+                                        <td>Mesin Cuci</td>
+                                        <td>Peralatan Besar</td>
+
+                                  
+                                       
+                                        <td id="tooltip-container4">
+                                            <a href="javascript:void(0);" class="me-3 text-primary"
+                                                data-bs-container="#tooltip-container4" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Edit"><i
+                                                    class="mdi mdi-pencil font-size-18"></i></a>
+                                            <a href="javascript:void(0);" class="text-danger"
+                                                data-bs-container="#tooltip-container4" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Delete"><i
+                                                    class="mdi mdi-trash-can font-size-18"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="customercheck5">
+                                                <label class="form-check-label mb-0" for="customercheck5">&nbsp;</label>
+                                            </div>
+                                        </td>
+
+                                        <td>Lampu LED</td>
+                                        <td>Lampu</td>
+                                        
+
+                                    
+                                        <td id="tooltip-container5">
+                                            <a href="javascript:void(0);" class="me-3 text-primary"
+                                                data-bs-container="#tooltip-container5" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Edit"><i
+                                                    class="mdi mdi-pencil font-size-18"></i></a>
+                                            <a href="javascript:void(0);" class="text-danger"
+                                                data-bs-container="#tooltip-container5" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Delete"><i
+                                                    class="mdi mdi-trash-can font-size-18"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="customercheck6">
+                                                <label class="form-check-label mb-0" for="customercheck6">&nbsp;</label>
+                                            </div>
+                                        </td>
+
+                                        <td>Telepon Seluler</td>
+                                        <td>Telekomunikasi Kecil</td>
+
+                                      
+                                       
+                                        <td id="tooltip-container6">
+                                            <a href="javascript:void(0);" class="me-3 text-primary"
+                                                data-bs-container="#tooltip-container6" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Edit"><i
+                                                    class="mdi mdi-pencil font-size-18"></i></a>
+                                            <a href="javascript:void(0);" class="text-danger"
+                                                data-bs-container="#tooltip-container6" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Delete"><i
+                                                    class="mdi mdi-trash-can font-size-18"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="customercheck7">
+                                                <label class="form-check-label mb-0" for="customercheck7">&nbsp;</label>
+                                            </div>
+                                        </td>
+
+                                        <td>Handphone</td>
+                                        <td>Telekomunikasi Kecil</td>
+                                   
+
+                                        
+                                      
+                                        <td id="tooltip-container7">
+                                            <a href="javascript:void(0);" class="me-3 text-primary"
+                                                data-bs-container="#tooltip-container7" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Edit"><i
+                                                    class="mdi mdi-pencil font-size-18"></i></a>
+                                            <a href="javascript:void(0);" class="text-danger"
+                                                data-bs-container="#tooltip-container7" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Delete"><i
+                                                    class="mdi mdi-trash-can font-size-18"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="customercheck8">
+                                                <label class="form-check-label mb-0" for="customercheck8">&nbsp;</label>
+                                            </div>
+                                        </td>
+
+                                        <td>Kulkas</td>
+                                        <td>Alat pertukaran suhu</td>
+
+                                      
+                                        <td id="tooltip-container8">
+                                            <a href="javascript:void(0);" class="me-3 text-primary"
+                                                data-bs-container="#tooltip-container8" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Edit"><i
+                                                    class="mdi mdi-pencil font-size-18"></i></a>
+                                            <a href="javascript:void(0);" class="text-danger"
+                                                data-bs-container="#tooltip-container8" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Delete"><i
+                                                    class="mdi mdi-trash-can font-size-18"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="customercheck9">
+                                                <label class="form-check-label mb-0" for="customercheck9">&nbsp;</label>
+                                            </div>
+                                        </td>
+
+                                        <td>Mesin Cuci Piring</td>
+                                        <td>Peralatan Besar</td>
+
+                                   
+                                        <td id="tooltip-container9">
+                                            <a href="javascript:void(0);" class="me-3 text-primary"
+                                                data-bs-container="#tooltip-container9" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Edit"><i
+                                                    class="mdi mdi-pencil font-size-18"></i></a>
+                                            <a href="javascript:void(0);" class="text-danger"
+                                                data-bs-container="#tooltip-container9" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Delete"><i
+                                                    class="mdi mdi-trash-can font-size-18"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="customercheck10">
+                                                <label class="form-check-label mb-0"
+                                                    for="customercheck10">&nbsp;</label>
+                                            </div>
+                                        </td>
+
+                                        <td>Camera</td>
+                                        <td>Peralatan Kecil</td>
+
+                                     
+                                        <td id="tooltip-container10">
+                                            <a href="javascript:void(0);" class="me-3 text-primary"
+                                                data-bs-container="#tooltip-container10" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Edit"><i
+                                                    class="mdi mdi-pencil font-size-18"></i></a>
+                                            <a href="javascript:void(0);" class="text-danger"
+                                                data-bs-container="#tooltip-container10" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Delete"><i
+                                                    class="mdi mdi-trash-can font-size-18"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="customercheck11">
+                                                <label class="form-check-label mb-0"
+                                                    for="customercheck11">&nbsp;</label>
+                                            </div>
+                                        </td>
+
+                                        <td>Laptop</td>
+                                        <td>Layar,Monitor</td>
+
+                                   
+                                        <td id="tooltip-container11">
+                                            <a href="javascript:void(0);" class="me-3 text-primary"
+                                                data-bs-container="#tooltip-container11" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Edit"><i
+                                                    class="mdi mdi-pencil font-size-18"></i></a>
+                                            <a href="javascript:void(0);" class="text-danger"
+                                                data-bs-container="#tooltip-container11" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Delete"><i
+                                                    class="mdi mdi-trash-can font-size-18"></i></a>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end row -->
+
+    </div> <!-- container-fluid -->
+</div>
+<!-- End Page-content -->
+
+<!-- Required datatable js -->
+<script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+
+<!-- Responsive examples -->
+<script src="assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+<script src="assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+
+<script src="assets/js/pages/ecommerce-datatables.init.js"></script>
